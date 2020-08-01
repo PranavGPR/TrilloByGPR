@@ -13,10 +13,9 @@
     text-transform: uppercase;
     display: block;
     padding: 1.5rem 3rem;
-  }
 
-  &__link:hover {
-      
+    display: flex;
+    align-items: center;
   }
 
   &__icon {
