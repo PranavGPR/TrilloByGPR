@@ -126,6 +126,13 @@
 .user-nav > * {
   padding: 0 2rem;
   cursor: pointer;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .user-nav > *:hover {
@@ -135,6 +142,16 @@
 .user-nav__icon {
   height: 2.25rem;
   width: 2.25rem;
+  fill: var(--color-grey-dark-2);
+}
+
+.user-nav__noti {
+  font-size: 0.8rem;
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  color: #fff;
 }
 
 .user-nav__user-photo {
