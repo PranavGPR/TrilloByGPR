@@ -112,6 +112,12 @@
   fill: var(--color-grey-dark-3);
 }
 
+.user-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .user-nav__icon {
   height: 2.25rem;
   width: 2.25rem;
