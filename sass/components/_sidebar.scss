@@ -6,6 +6,16 @@
   &__item {
   }
 
+  &__item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: var(--color-primary);
+  }
+
   &__link:link,
   &__link:visited {
     color: var(--color-grey-light-1);
