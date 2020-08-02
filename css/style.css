@@ -151,6 +151,12 @@ Grey dark 3: #999
   font-size: 1.4rem;
 }
 
+@media screen and (max-width: 56.25em) {
+  .detail {
+    padding: 3rem;
+  }
+}
+
 .description {
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
@@ -160,6 +166,13 @@ Grey dark 3: #999
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
   margin-right: 4.5rem;
+}
+
+@media screen and (max-width: 56.25em) {
+  .description {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
 }
 
 .user-reviews {
@@ -616,6 +629,13 @@ Grey dark 3: #999
   overflow: hidden;
 }
 
+@media screen and (max-width: 56.25em) {
+  .review {
+    padding: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
 .review__text {
   margin-bottom: 2rem;
   z-index: 10;
@@ -675,6 +695,12 @@ Grey dark 3: #999
 .cta {
   padding: 3.5rem 0;
   text-align: center;
+}
+
+@media screen and (max-width: 56.25em) {
+  .cta {
+    padding: 2.5rem 0;
+  }
 }
 
 .cta__book-now {
