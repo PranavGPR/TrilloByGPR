@@ -3,6 +3,11 @@
   list-style: none;
   margin-top: 3.5rem;
 
+  @media screen and (max-width: $bp-medium) {
+    display: flex;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 
@@ -60,4 +65,8 @@
   text-align: center;
   padding: 2.5rem;
   color: var(--color-grey-light-4);
+
+  @media screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }
