@@ -581,6 +581,10 @@ Grey dark 3: #999
   font-weight: 300;
 }
 
+.review::before {
+  content: "";
+}
+
 * {
   margin: 0;
   padding: 0;
