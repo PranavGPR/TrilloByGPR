@@ -582,7 +582,7 @@ Grey dark 3: #999
 }
 
 .review::before {
-  content: "";
+  content: "\201C";
 }
 
 * {
