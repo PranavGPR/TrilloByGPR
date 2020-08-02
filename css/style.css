@@ -175,6 +175,15 @@ Grey dark 3: #999
   margin-bottom: 0.7rem;
 }
 
+.list__item::before {
+  content: "";
+  display: inline-block;
+  height: 1rem;
+  width: 1rem;
+  margin-right: 0.7rem;
+  background-image: url(../../img/chevron-thin-right.svg);
+}
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
