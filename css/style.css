@@ -135,6 +135,7 @@ Grey dark 3: #999
 }
 
 .description {
+  font-size: 1.4rem;
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
           box-shadow: var(--shadow-light);
