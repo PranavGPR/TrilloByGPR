@@ -1,5 +1,9 @@
 .content {
   display: flex;
+
+  @media screen and (max-width: $bp-medium) {
+    flex-direction: column;
+  }
 }
 
 .sidebar {
