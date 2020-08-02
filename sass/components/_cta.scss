@@ -39,4 +39,14 @@
     left: 0;
     top: -100%;
   }
+
+  &:hover {
+      &__visible {
+
+      }
+
+      &__invisible {
+          
+      }
+  }
 }
