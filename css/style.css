@@ -131,10 +131,10 @@ Grey dark 3: #999
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
   border-bottom: var(--line);
+  font-size: 1.4rem;
 }
 
 .description {
-  font-size: 1.4rem;
   background-color: #fff;
   -webkit-box-shadow: var(--shadow-light);
           box-shadow: var(--shadow-light);
@@ -537,6 +537,12 @@ Grey dark 3: #999
           box-shadow: var(--shadow-light);
   padding: 3rem;
   margin-bottom: 3.5rem;
+}
+
+.review__photo {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
 }
 
 * {
