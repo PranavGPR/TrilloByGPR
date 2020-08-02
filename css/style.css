@@ -134,6 +134,9 @@ Grey dark 3: #999
 }
 
 .description {
+  background-color: #fff;
+  -webkit-box-shadow: 0 2rem 5rem rgbs(0, 0, 0, 0.06);
+          box-shadow: 0 2rem 5rem rgbs(0, 0, 0, 0.06);
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60%;
           flex: 0 0 60%;
