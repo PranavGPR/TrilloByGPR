@@ -43,6 +43,11 @@
     height: 1rem;
     width: 1rem;
     margin-right: 0.7rem;
-    background-image: url(../../img/chevron-thin-right.svg);
+
+    //Older browsers
+    // background-image: url(../../img/chevron-thin-right.svg);
+    // background-size: cover;
+
+    //Newer browsers
   }
 }
