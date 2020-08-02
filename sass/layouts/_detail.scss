@@ -49,5 +49,8 @@
     // background-size: cover;
 
     //Newer browsers
+    background-color: var(--color-primary);
+    mask-image: url(../../img/chevron-thin-right.svg);
+    mask-size: cover;
   }
 }
