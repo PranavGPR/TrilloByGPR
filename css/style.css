@@ -1,3 +1,21 @@
+@-webkit-keyframes pulsate {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
+
+@keyframes pulsate {
+  0% {
+  }
+  50% {
+  }
+  100% {
+  }
+}
+
 .content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -314,6 +332,10 @@
 
 .btn-inline:hover {
   color: var(--color-grey-dark-1);
+}
+
+.btn-inline:focus {
+  outline: none;
 }
 
 /*

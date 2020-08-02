@@ -50,4 +50,9 @@
   &:hover {
     color: var(--color-grey-dark-1);
   }
+
+  &:focus {
+    outline: none;
+  }
 }
+
