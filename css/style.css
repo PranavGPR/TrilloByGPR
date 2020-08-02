@@ -360,8 +360,21 @@
   margin-left: 3rem;
   color: #fff;
   -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
       align-self: stretch;
+  padding: 0 2.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .overview__rating-average {
