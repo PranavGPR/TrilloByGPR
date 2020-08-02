@@ -130,6 +130,7 @@ Grey dark 3: #999
   display: flex;
   padding: 4.5rem;
   background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
 }
 
 .description {
@@ -366,7 +367,7 @@ Grey dark 3: #999
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid var(--color-grey-light-2);
+  border-bottom: var(--line);
 }
 
 .overview__heading {
