@@ -197,6 +197,8 @@ Grey dark 3: #999
 }
 
 .recommend__photo {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   height: 4rem;
   width: 4rem;
   border-radius: 50%;

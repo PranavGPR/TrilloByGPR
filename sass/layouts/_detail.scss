@@ -70,6 +70,7 @@
   }
 
   &__photo {
+    box-sizing: content-box;
     height: 4rem;
     width: 4rem;
     border-radius: 50%;
