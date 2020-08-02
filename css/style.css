@@ -182,10 +182,21 @@ Grey dark 3: #999
   width: 1rem;
   margin-right: 0.7rem;
   background-color: var(--color-primary);
+  mask-image: url(../../img/chevron-thin-right.svg);
+  mask-size: cover;
   -webkit-mask-image: url(../../img/chevron-thin-right.svg);
-          mask-image: url(../../img/chevron-thin-right.svg);
   -webkit-mask-size: cover;
-          mask-size: cover;
+}
+
+.recommend {
+  font-size: 1.3rem;
+  color: var(--color-grey-light-3);
+}
+
+.recommend__photo {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
 }
 
 .logo {
