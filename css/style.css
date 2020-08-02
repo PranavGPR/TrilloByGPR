@@ -151,6 +151,10 @@ Grey dark 3: #999
           flex: 1;
 }
 
+.paragraph:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
 .logo {
   height: 3.25rem;
   margin-left: 2rem;
